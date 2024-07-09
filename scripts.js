@@ -798,7 +798,7 @@ document.addEventListener('DOMContentLoaded', function() {
         let html = `<p><strong>Frecuencia:</strong> ${rutina.frecuencia}</p>`;
         html += `<p><strong>Nota:</strong> ${rutina.nota}</p>`;
 
-        Object.keys(rutina.rutina).forEach((dia, index) => {
+        Object.keys(rutina.rutina).forEach((dia, inicio) => {
             html += `<h3>${dia}</h3>`;
             rutina.rutina[dia].forEach(ejercicio => {
                 html += `<p><strong>${ejercicio.ejercicio}</strong> - Series: ${ejercicio.series}, Repeticiones: ${ejercicio.repeticiones}</p>`;
