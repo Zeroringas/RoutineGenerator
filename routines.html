@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rutinas - Rutinas de Gimnasio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="routines.html">Generador</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <form id="routine-generator">
+            <label for="morfoType">Tipo de Cuerpo:</label>
+            <select id="morfoType" name="morfoType">
+                <option value="ectomorfo">Ectomorfo</option>
+                <option value="endomorfo">Endomorfo</option>
+                <option value="mesomorfo">Mesomorfo</option>
+            </select>
+            <label for="level">Nivel de Condición Física:</label>
+            <select id="level" name="level">
+                <option value="principiante">Principiante</option>
+                <option value="intermedio">Intermedio</option>
+                <option value="avanzado">Avanzado</option>
+            </select>
+            <label for="location">Preferencia de Ejercicio:</label>
+            <select id="location" name="location">
+                <option value="casa">Casa</option>
+                <option value="gimnasio">Gimnasio</option>
+            </select>
+            <button class="generate" type="submit">Generar</button>
+        </form>
+        </section>
+        <section id="routine-result">
+            <h2>Tu Rutina</h2>
+            <div id="rutinaContainer">
+                <!-- Aquí se mostrará la rutina generada -->
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Rutinas de Gimnasio. Todos los derechos reservados.</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
