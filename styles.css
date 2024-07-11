@@ -68,7 +68,8 @@ header nav ul li a:hover {
 
 #hero .herou-D,
 #hero .herou-E {
-    width: 3rem;
+    width: 6rem;
+    height: auto;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
