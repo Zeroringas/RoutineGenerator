@@ -68,18 +68,18 @@ header nav ul li a:hover {
 
 #hero .herou-D,
 #hero .herou-E {
-    width: 3rem;
+    width: 5rem;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
 }
 
 #hero .herou-D {
-    left: 1rem;
+    left: 2rem;
 }
 
 #hero .herou-E {
-    right: 1rem;
+    right: 2rem;
 }
 
 #hero h1 {
