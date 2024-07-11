@@ -68,11 +68,10 @@ header nav ul li a:hover {
 
 #hero .herou-D,
 #hero .herou-E {
-    width: 5rem; /* tamaño por defecto */
+    width: 3rem;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    height: auto; /* mantener aspecto */
 }
 
 #hero .herou-D {
@@ -256,12 +255,11 @@ footer {
 
     #hero .herou-D,
     #hero .herou-E {
-        width: 7rem; /* tamaño más grande en móviles */
+        width: 2rem;
         margin: 0.5rem;
         position: static;
         transform: none;
         order: 0;
-        height: auto; /* mantener aspecto */
     }
 
     #hero .herou-D {
