@@ -194,9 +194,12 @@ img {
 }
 
 .centered-image-1 {
-    width: 40%;
+    width: 40rem;
 }
 
+.centered-image-2 {
+    width: 40rem;
+}
 /* Estilo para el botón Generar */
 #routine-generator {
     margin-bottom: 2rem; /* Espacio debajo del formulario */
