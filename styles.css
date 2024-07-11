@@ -68,18 +68,19 @@ header nav ul li a:hover {
 
 #hero .herou-D,
 #hero .herou-E {
-    width: 5rem;
+    width: 5rem; /* tamaño por defecto */
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
+    height: auto; /* mantener aspecto */
 }
 
 #hero .herou-D {
-    left: 2rem;
+    left: 1rem;
 }
 
 #hero .herou-E {
-    right: 2rem;
+    right: 1rem;
 }
 
 #hero h1 {
@@ -192,8 +193,8 @@ img {
     display: block; /* Asegura que la imagen se comporte correctamente */
 }
 
-.centered-image-2 {
-    width: 30rem;
+.centered-image-1 {
+    width: 40%;
 }
 
 /* Estilo para el botón Generar */
@@ -255,11 +256,12 @@ footer {
 
     #hero .herou-D,
     #hero .herou-E {
-        width: 2rem;
+        width: 7rem; /* tamaño más grande en móviles */
         margin: 0.5rem;
         position: static;
         transform: none;
         order: 0;
+        height: auto; /* mantener aspecto */
     }
 
     #hero .herou-D {
@@ -292,6 +294,6 @@ footer {
     }
 
     .centered-image-1 {
-        width: 30rem;
+        width: 80%;
     }
 }
