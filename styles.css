@@ -196,7 +196,6 @@ img {
 .centered-image-1 {
     width: 40rem;
 }
-
 .centered-image-2 {
     width: 40rem;
 }
@@ -227,4 +226,75 @@ footer {
     text-align: center;
     padding: 1rem 0;
     box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Media Queries for Mobile */
+@media (max-width: 768px) {
+    main {
+        padding: 1rem;
+    }
+
+    header nav ul {
+        text-align: center;
+    }
+
+    header nav ul li {
+        display: block;
+        margin: 0.5rem 0;
+    }
+
+    #hero {
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #hero h1 {
+        font-size: 2rem;
+        flex: 0 0 100%;
+        order: 1;
+    }
+
+    #hero .herou-D,
+    #hero .herou-E {
+        width: 2rem;
+        margin: 0.5rem;
+        position: static;
+        transform: none;
+        order: 0;
+    }
+
+    #hero .herou-D {
+        order: 0;
+    }
+
+    #hero .herou-E {
+        order: 2;
+    }
+
+    #hero p {
+        order: 1;
+        flex: 0 0 100%;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.75rem;
+    }
+
+    h3 {
+        font-size: 1.5rem;
+    }
+
+    .type, .level {
+        flex: 1 1 100%;
+    }
+
+    .centered-image-1 {
+        width: 80%;
+    }
 }
