@@ -192,8 +192,8 @@ img {
     display: block; /* Asegura que la imagen se comporte correctamente */
 }
 
-.centered-image-1 {
-    width: 40%;
+.centered-image-2 {
+    width: 30rem;
 }
 
 /* Estilo para el botón Generar */
@@ -292,6 +292,6 @@ footer {
     }
 
     .centered-image-1 {
-        width: 80%;
+        width: 30rem;
     }
 }
