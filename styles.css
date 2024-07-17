@@ -268,3 +268,34 @@ footer {
         width: 100%;
     }
 }
+
+@media (max-width: 480px) {
+    header nav ul li {
+        margin: 0.25rem 0;
+    }
+
+    #hero h1 {
+        font-size: 2rem;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    h3 {
+        font-size: 1.2rem;
+    }
+
+    .type, .level {
+        padding: 0.75rem;
+    }
+
+    #routine-generator button {
+        padding: 0.5rem 1rem;
+        font-size: 0.875rem;
+    }
+}
